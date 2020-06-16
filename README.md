@@ -1,12 +1,12 @@
 
 # LABORATORIO # 03
 
-TEMA: Análisis de mallas 
+TEMA: Análisis de nodos
 ## 1. OBJETIVOS
 
 **1,1.- GENERAL** 
 
-* Comprobar experimentalmente el Análisis de Mallas. 
+* Comprobar experimentalmente el Análisis de Nodos. 
 
 **1,2.-ESPECÍFICOS**
 
@@ -19,7 +19,9 @@ TEMA: Análisis de mallas
 
 ## 2. PLANTEAMIENTO DEL PROBLEMA
 
-Este proyecto consistió en la implementación de un circuito electrónico virtual en un programa online denominado Tinkercad con la finalidad de experimentar una simulación del circuito donde es posible aplicar el Análisis de Malla. Se procede a realizar ensamblaje   del circuito con resistencias en serie y paralelo de diferentes valores para que estas formen mallas con el fin de poder realizar su análisis midiendo las corrientes de cada malla del circuito.
+Este proyecto consistió en la implementación de un circuito electrónico virtual en un programa online denominado Tinkercad con la finalidad de experimentar una simulación del circuito donde es posible aplicar el Análisis de nodos. 
+
+Se procede a realizar ensamblaje   del circuito con resistencias en serie y paralelo de diferentes valores para que estas formen mallas con el fin de poder realizar su análisis midiendo las corrientes de cada malla del circuito.
 
 
 ## 3. MARCO TEÓRICO 
@@ -53,7 +55,7 @@ Ya una vez colocado los signos procedemos  a establecer las ecuaciones para cada
 
 Para este laboratorio se utilizó un circuito mixto en donde podemos diferenciar que se encuentra constituido por 3 mallas.
 
-![](https://github.com/BriandaLema/Laboratorio2/blob/master/img/Circuito%20lab%202%20(2).png)
+![](https://github.com/BriandaLema/Laboratorio3/blob/master/IMG/Laboratorio%203.png)
 
 ## 5. LISTA DE COMPONENTES
 
@@ -61,17 +63,17 @@ Para este laboratorio se utilizó un circuito mixto en donde podemos diferenciar
 | ------- | -------------|
 | 2       | Fuente de Voltaje C.D.  |
 | 1       | Multímetro digital  |
-| 1       | Resistor de 820 Ω   |
-| 1       | Resistor de 390 Ω   |
-| 1       | Resistor de 1 kΩ  |
-| 1       | Resistor de 1.2 kΩ|
+| 1       | Resistor de 470 Ω   |
+| 1       | Resistor de 3.9 kΩ   |
+| 1       | Resistor de 1.5 kΩ|
+| 1       | Resistor de 1.8 kΩ|
 | 1       | Resistor de 2.2 kΩ|
 | 1       | Protoboard                    |
 
 ## 6. MAPA DE VARIABLES 
 
 Variables eléctricas: 
-* Corriente 
+* Voltaje
 * Resistores
 
 ## 7. EXPLICACIÓN CÓDIGO DE FUENTE
@@ -95,7 +97,7 @@ Para complementar la correcta cuantificacion de valores calculados y valores med
 
 **ANÁLISIS DE RESULTADOS Y CÁLCULO DEL ERROR**
 
-ANÁLISIS DE MALLAS 
+ANÁLISIS DE NODOS
 
 | CORRIENTE | MEDIDO | CALCULADO  |
 |----------|------|-------|
