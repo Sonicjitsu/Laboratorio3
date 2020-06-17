@@ -14,7 +14,7 @@ TEMA: Análisis de nodos
 
 * Comparar los valores medidos con los valores calculados en el circuito y establecer el porcentaje de error resultante.
 
-* Aplicar el uso de las leyes de voltaje de Kirchhoff  para el análisis de mallas.
+* Aplicar el uso de las leyes de intensidad de Kirchhoff  para el análisis de nodos.
 
 
 ## 2. PLANTEAMIENTO DEL PROBLEMA
